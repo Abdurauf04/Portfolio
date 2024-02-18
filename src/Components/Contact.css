@@ -1,0 +1,56 @@
+.my-form h1{
+    margin-left: 100%;
+   margin-top: -100px;
+}
+
+
+.my-form{
+    position: absolute;
+    margin-top: 200vh;
+    color: white;
+   
+}  
+ .my-form  {
+    margin-left: 70px;
+    font-size: 20px;
+ 
+ }
+ .my-form input{
+    width: 250px;
+    height: 40px;
+    font-size: large;
+    margin: 7px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-left: 20px;
+    border: none;
+}
+.txt textarea{
+    margin-left: 160%;
+    width: 400px;
+    height: 220px;
+    font-size: larger;
+    border: none;
+    margin-top: -100px;
+    background-color: rgb(149, 155, 241);
+    
+}
+.txt #mess{
+    font-size: 22px;
+    margin-left: 158%;
+    margin-top: -130px;
+    position: absolute;
+}
+.my-form #btn{
+    width: 260px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -265px;
+    height: 40px;
+    background-color: rgb(149, 155, 241);
+    color:white;
+    border: none;
+    font-size: large;
+    border-radius: 15px;
+   
+}

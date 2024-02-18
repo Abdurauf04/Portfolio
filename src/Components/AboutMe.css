@@ -1,0 +1,126 @@
+.me{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    margin-top: 670px;
+    margin-left: 43%;
+    color: white;
+
+}
+.sometext{
+    position: absolute;
+    margin-top: 800px;
+    width: 430px;
+    height: 380px;
+    color: white;
+    border: 2px solid white;
+    margin-left: 5%;   
+    border-radius: 15px;
+    
+}
+#p{
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 1px;
+    padding: 2px 5px 5px 5px;
+    line-height: 25px;
+}
+.front{
+    position: absolute;
+    color: white;
+    margin-top: 772px;
+    margin-left: 45%;
+}
+.back{
+    position: absolute;
+    color: white;
+    margin-top: 772px;
+    margin-left: 75%;   
+}
+.front_end{
+    position: absolute;
+    margin-top: 860px;
+    border-radius: 10px;
+    margin-left: 38%;
+    color: white;
+    width: 400px;
+    height: 400px;
+    padding: 5px 10px 15px 20px;
+    
+}
+.a{
+    margin:5px;
+    border-radius: 15px;
+    background-color: #638ecb;
+    color: white ;
+    border: 2px solid #638ecb;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.a:hover{
+    box-shadow:10px 7px 5px #8aaee0;
+    transition: 0.5s;
+}
+.back_end{
+    position: absolute;
+    margin-top: 860px;
+    border-radius: 10px;
+    margin-left: 70%;
+    color: white;
+    width: 350px;
+    height: 400px;
+       
+}
+.b{
+    margin:5px;
+    border-radius: 15px;
+    background-color: #638ecb;
+    color: white ;
+    border: 2px solid #638ecb;
+    width: 165px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.b:hover{
+    box-shadow:10px 7px 5px #8aaee0;
+    transition: 0.5s;
+}
+@media screen and (max-width:760px) {
+    .sometext{
+        position: absolute;
+        margin-top: 800px;
+        width: 300px;
+        height: 380px;
+        color: white;
+        border: 2px solid white;
+        margin-left: 2%;   
+        border-radius: 15px;
+        
+    }
+    #p{
+        font-size: 15px;
+        text-align: left;
+        letter-spacing: 1px;
+        padding: 2px 5px 5px 5px;
+        line-height: 15px;
+    }
+    .front{
+        position: absolute;
+        color: white;
+        margin-top: 872px;
+        display: block;
+    }
+    .front_end{
+        position: absolute;
+        margin-top: 960px;
+        border-radius: 10px;
+        display: block;
+        color: white;
+        width: 300px;
+        height: 400px;
+        padding: 5px 10px 15px 20px;
+        
+    }
+}
